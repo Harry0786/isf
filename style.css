@@ -265,7 +265,7 @@ span{
 }
 .events{
     padding: 100px 15px;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 .events h2{
     margin-bottom: 10rem;
@@ -502,7 +502,7 @@ span{
     font-size: 2rem;
 }
 .contact{
-    background-color: var(--second-bg-color);
+    background-color: var(--bg-color);
 }
 .contact h2{
     margin-bottom: 3rem;
@@ -692,7 +692,7 @@ span{
 
 .workshop{
     padding: 100px 15px;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 .workshop h2{
     margin-bottom: 5rem;
@@ -779,6 +779,7 @@ span{
     text-align: center;
     margin: 20px auto;
     
+    
 }
 
 .gallery-container h1 {
@@ -790,22 +791,23 @@ span{
     display: grid;
     grid-template-columns: auto;
     gap: 100px;
-    grid-template-columns:repeat(4,1fr);
-   justify-content: space-between;
+    grid-template-columns:repeat(3,1fr);
+    justify-content: space-between;
     
 }
 
 .gallery-item {
     background-color: var(--bg-color);
-    border: 1px solid var(--main-color);
-    border-radius: 82px;
+    border: 2px solid black;
+    border-radius: 30%;
     overflow: hidden;
-    box-shadow: 0 0px 15px var(--main-color);
+    box-shadow: 0 0px 5px white;
     transition: transform 0.3s ease-in-out;
     width: 100%;
     box-sizing: border-box;
-    flex: 1 1 calc(33.33% - 10px);
+    
     margin: 5px;
+    height: 75%;
 }
 
 .gallery-item:hover {
@@ -816,11 +818,12 @@ span{
     width: 100%;
     height: auto;
     display: block;
+    background-size: cover;
 }
 
 .desc {
     padding: 10px;
-    background-color: aqua;
+    background-color: white;
     color: black;
     font-size: 15px;
     font-weight: bolder;
